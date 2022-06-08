@@ -536,6 +536,7 @@ public class MakeSong {
                         output += notesInScale[3 +(RandomRange(0, 1)*2)];
                     }
                     output += octive;
+                    // why didnt i use a switch here?
                     if(countToNextBeat ==1)output+="i";                                 
                     if(countToNextBeat == 2)output+="q";
                     if(countToNextBeat == 3)output+="qi";
